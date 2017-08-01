@@ -1,4 +1,4 @@
-package com.bleachr.fan_engine;
+package com.laurenipsum365.echoplugin;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -8,7 +8,7 @@ import org.json.JSONException;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class EchoPlugin extends CordovaPlugin {
+public class Echo extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
